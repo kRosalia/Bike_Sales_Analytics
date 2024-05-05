@@ -17,7 +17,10 @@ In the initial data preparation phase, we performed the following tasks:
 1. Check for and remove any duplicates in the data
 2. Using Find and replace to clearly spell out the customers who are male and female and the marital status, finding and replacing  by columns
 3. Make sure the income is in currency and remove the two decimal points to none
-4. Sort age by age range
+4. Sort age by age range through Nested If Ranges
+   ```Conditional Formatting
+   =IF(L2>54, "Old",IF(L2>=31,"Middle Age",IF(L2<31,"Adolescent", "Invalid")))
+   ```
 
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
