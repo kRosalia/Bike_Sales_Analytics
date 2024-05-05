@@ -10,9 +10,8 @@ Sales Data: The primary dataset used for this analysis is the "https://github.co
 ### Tools
 
 - Excel - used for Data Cleaning. [Download here](https://microsoft.com)
-
-  Steps
-1. Check for and remove any duplicates in the data
-2. Using Find and replace to clearly spell out the customers who are male and female and the marital status, finding and replacing  by columns
-3. Make sure the income is in currency and remove the two decimal points to none
-4. Sort age by age range
+  #### Steps
+  1. Check for and remove any duplicates in the data
+  2. Using Find and replace to clearly spell out the customers who are male and female and the marital status, finding and replacing  by columns
+  3. Make sure the income is in currency and remove the two decimal points to none
+  4. Sort age by age range
