@@ -21,6 +21,12 @@ In the initial data preparation phase, we performed the following tasks:
    ```Conditional Formatting
    =IF(L2>54, "Old",IF(L2>=31,"Middle Age",IF(L2<31,"Adolescent", "Invalid")))
    ```
+### Building a dashboard
+1. Create a Pivot table.
+   Here we will be looking at the average income of someone who bought or did not buy a bike
+   - Breaking it out by gender
+   - Created visualisation on average income per purchase
+
 
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
